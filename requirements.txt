@@ -1,4 +1,2 @@
 ## Requirements ##
 pandas >= 1.0.0
-coveralls
-python-coveralls
