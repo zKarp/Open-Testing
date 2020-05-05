@@ -20,7 +20,7 @@ class TestLikes(unittest.TestCase):
 
     def test_returns_B(self):
         results = start().ReturnsB()
-        self.assertEqual('A',results)
+        self.assertEqual('B',results)
 
 
 
