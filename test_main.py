@@ -18,6 +18,10 @@ class TestLikes(unittest.TestCase):
         result = start()
         self.assertEqual('Test', result.name)
 
+    def test_returns_a(self):
+        results = start().ReturnsB
+        self.assertEqual('A',results)
+
 
 
 if __name__ == '__main__':
